@@ -1,1 +1,1 @@
-글자수 계산기를 만들어 줘. 내가 한국어로 문장을 입력하면 띄어쓰기를 포함해서 글자수를 계산하는 프로그램을 만들어 줘.
+secom_df = pd.read_csv('/content/secom.data',delim_whitespace=True, header=None)
