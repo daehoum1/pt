@@ -1,7 +1,5 @@
-secom_df_mean은 1567 by 590의 표이다. 각 열의 평균이 0이 되고 분산이 1이 되도록 표준화를 하여 secom_df_stan에 저장해 줘.
+import pandas as pd
 
- secom_df_stan을 PCA를 이용하여 3차원으로 축소해 줘. 결과로 나오는 1567 by 3의 표를 secom_df_pca에 저장해 줘.
+secom_df = pd.read_csv('/content/secom.data',delim_whitespace=True, header=None)
 
-secom_df_pca를 3차원 공간에 산점도로 그려 줘.
-
-secom_df_pca은 1567 by 3의 표이며, 각 행은 칩에 대응이 된다. secom_df_labels의 0번째 열에는 각 칩의 정상/불량 여부가 담겨있다. 정상은 -1로 불량은 +1로 표시된다. 이 정보를 참고하여 방금 그린 3차원 산점도에서 불량인 칩은 빨간색 점으로, 정상인 칩은 파란색 점으로 표시되게 다시 그려 줘.
+secom_labels_df = pd.read_csv('/content/secom_labels.data',delim_whitespace=True, header=None)
