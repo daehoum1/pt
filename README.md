@@ -1,5 +1,1 @@
-import pandas as pd
-
-secom_df = pd.read_csv('/content/secom.data',delim_whitespace=True, header=None)
-
-secom_labels_df = pd.read_csv('/content/secom_labels.data',delim_whitespace=True, header=None)
+secom_df는 1567 by 590의 표이고, 각 행은 칩에 대응이 되고, 각 열은 특징에 대응이 된다. secom_df_labels는 1567 by 2의 표이고, 0번째 열에 각 칩의 정상/불량 여부가 담겨 있다. 값이 -1이면 정상을 나타내고, 값이 1이면 불량을 나타낸다. 나는 불량을 판별하기 위한 분류기를 MLP로 학습할 거야. 이를 위해 학습용/검증용/테스트용 데이터셋으로 나눠 줘. 코드는 pytorch로 짜 줘.
