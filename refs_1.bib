@@ -1,0 +1,469 @@
+% ---------------------------------------------------------------------------
+%  Missing-data foundations
+% ---------------------------------------------------------------------------
+@article{rubin1976,
+  title={Inference and missing data},
+  author={Rubin, Donald B},
+  journal={Biometrika},
+  volume={63},
+  number={3},
+  pages={581--592},
+  year={1976},
+  publisher={Oxford University Press}
+}
+
+@book{littlerubin2019,
+  title={Statistical analysis with missing data},
+  author={Little, Roderick JA and Rubin, Donald B},
+  year={2019},
+  publisher={John Wiley \& Sons}
+}
+% ---------------------------------------------------------------------------
+%  Imputation methods
+% ---------------------------------------------------------------------------
+
+@article{vanbuuren2011mice,
+  title={mice: Multivariate imputation by chained equations in R},
+  author={Van Buuren, Stef and Groothuis-Oudshoorn, Karin},
+  journal={Journal of statistical software},
+  volume={45},
+  pages={1--67},
+  year={2011}
+}
+
+@article{stekhoven2012missforest,
+  title={MissForest—non-parametric missing value imputation for mixed-type data},
+  author={Stekhoven, Daniel J and B{\"u}hlmann, Peter},
+  journal={Bioinformatics},
+  volume={28},
+  number={1},
+  pages={112--118},
+  year={2012},
+  publisher={Oxford University Press}
+}
+
+@article{troyanskaya2001knn,
+  title={Missing value estimation methods for DNA microarrays},
+  author={Troyanskaya, Olga and Cantor, Michael and Sherlock, Gavin and Brown, Pat and Hastie, Trevor and Tibshirani, Robert and Botstein, David and Altman, Russ B},
+  journal={Bioinformatics},
+  volume={17},
+  number={6},
+  pages={520--525},
+  year={2001},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{yoon2018gain,
+  title={Gain: Missing data imputation using generative adversarial nets},
+  author={Yoon, Jinsung and Jordon, James and Schaar, Mihaela},
+  booktitle={International conference on machine learning},
+  pages={5689--5698},
+  year={2018},
+  organization={PMLR}
+}
+
+@inproceedings{jarrett2022hyperimpute,
+  title={Hyperimpute: Generalized iterative imputation with automatic model selection},
+  author={Jarrett, Daniel and Cebere, Bogdan C and Liu, Tennison and Curth, Alicia and van der Schaar, Mihaela},
+  booktitle={International conference on machine learning},
+  pages={9916--9937},
+  year={2022},
+  organization={PMLR}
+}
+
+% ---------------------------------------------------------------------------
+%  Imputation seen from the downstream task -- the closest related work
+% ---------------------------------------------------------------------------
+@inproceedings{lemorvan2021good,
+ title={What’s a good imputation to predict with missing values?},
+  author={Le Morvan, Marine and Josse, Julie and Scornet, Erwan and Varoquaux, Ga{\"e}l},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={11530--11540},
+  year={2021}
+}
+
+@inproceedings{lemorvan2025diminishing,
+  title={Imputation for prediction: beware of diminishing returns.},
+  author={Le Morvan, Marine and Varoquaux, Ga{\"e}l},
+  booktitle={International Conference on Learning Representations},
+  volume={2025},
+  pages={41174--41213},
+  year={2025}
+}
+
+@article{perezlebel2022benchmark,
+  title={Benchmarking missing-values approaches for predictive models on health databases},
+  author={Perez-Lebel, Alexandre and Varoquaux, Ga{\"e}l and Le Morvan, Marine and Josse, Julie and Poline, Jean-Baptiste},
+  journal={GigaScience},
+  volume={11},
+  pages={giac013},
+  year={2022},
+  publisher={Oxford University Press}
+}
+
+@article{jager2021benchmark,
+  title={A benchmark for data imputation methods},
+  author={J{\"a}ger, Sebastian and Allhorn, Arndt and Bie{\ss}mann, Felix},
+  journal={Frontiers in big Data},
+  volume={4},
+  pages={693674},
+  year={2021},
+  publisher={Frontiers}
+}
+
+@article{shadbahr2023quality,
+  title={The impact of imputation quality on machine learning classifiers for datasets with missing values},
+  author={Shadbahr, Tolou and Roberts, Michael and Stanczuk, Jan and Gilbey, Julian and Teare, Philip and Dittmer, S{\"o}ren and Thorpe, Matthew and Torn{\'e}, Ramon Vi{\~n}as and Sala, Evis and Li{\'o}, Pietro and others},
+  journal={Communications medicine},
+  volume={3},
+  number={1},
+  pages={139},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+
+% ---------------------------------------------------------------------------
+%  Native handling of missing values
+% ---------------------------------------------------------------------------
+@inproceedings{ke2017lightgbm,
+  title={Lightgbm: A highly efficient gradient boosting decision tree},
+  author={Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+
+@inproceedings{chen2016xgboost,
+  title={Xgboost: A scalable tree boosting system},
+  author={Chen, Tianqi and Guestrin, Carlos},
+  booktitle={Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining},
+  pages={785--794},
+  year={2016}
+}
+
+@article{josse2024consistency,
+  title={On the consistency of supervised learning with missing values},
+  author={Josse, Julie and Chen, Jacob M and Prost, Nicolas and Varoquaux, Ga{\"e}l and Scornet, Erwan},
+  journal={Statistical Papers},
+  volume={65},
+  number={9},
+  pages={5447--5479},
+  year={2024},
+  publisher={Springer}
+}
+
+% ---------------------------------------------------------------------------
+%  Feature importance
+% ---------------------------------------------------------------------------
+@article{breiman2001rf,
+  title={Random forests},
+  author={Breiman, Leo},
+  journal={Machine learning},
+  volume={45},
+  number={1},
+  pages={5--32},
+  year={2001},
+  publisher={Springer}
+}
+
+@article{fisher2019all,
+  title={All models are wrong, but many are useful: Learning a variable's importance by studying an entire class of prediction models simultaneously},
+  author={Fisher, Aaron and Rudin, Cynthia and Dominici, Francesca},
+  journal={Journal of machine learning research},
+  volume={20},
+  number={177},
+  pages={1--81},
+  year={2019}
+}
+
+@article{strobl2007bias,
+  title={Bias in random forest variable importance measures: Illustrations, sources and a solution},
+  author={Strobl, Carolin and Boulesteix, Anne-Laure and Zeileis, Achim and Hothorn, Torsten},
+  journal={BMC bioinformatics},
+  volume={8},
+  number={1},
+  pages={25},
+  year={2007},
+  publisher={Springer}
+}
+
+% ---------------------------------------------------------------------------
+%  Benchmarks, data and software
+% ---------------------------------------------------------------------------
+@inproceedings{fischer2023ctr23,
+  title={OpenML-CTR23--a curated tabular regression benchmarking suite},
+  author={Fischer, Sebastian Felix and Feurer, Matthias and Bischl, Bernd},
+  booktitle={AutoML Conference 2023 (Workshop)},
+  year={2023}
+}
+
+@article{vanschoren2014openml,
+  title={OpenML: networked science in machine learning},
+  author={Vanschoren, Joaquin and Van Rijn, Jan N and Bischl, Bernd and Torgo, Luis},
+  journal={ACM SIGKDD Explorations Newsletter},
+  volume={15},
+  number={2},
+  pages={49--60},
+  year={2014},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{pedregosa2011sklearn,
+  title={Scikit-learn: Machine learning in Python},
+  author={Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others},
+  journal={the Journal of machine Learning research},
+  volume={12},
+  pages={2825--2830},
+  year={2011},
+  publisher={JMLR. org}
+}
+
+@article{hamidieh2018superconduct,
+  title={A data-driven statistical model for predicting the critical temperature of a superconductor},
+  author={Hamidieh, Kam},
+  journal={Computational Materials Science},
+  volume={154},
+  pages={346--354},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{redmond2002communities,
+  title={A data-driven software tool for enabling cooperative information sharing among police departments},
+  author={Redmond, Michael and Baveja, Alok},
+  journal={European Journal of Operational Research},
+  volume={141},
+  number={3},
+  pages={660--678},
+  year={2002},
+  publisher={Elsevier}
+}
+
+@article{devito2008airquality,
+  title={On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario},
+  author={De Vito, Saverio and Massera, Ettore and Piga, Marco and Martinotto, Luca and Di Francia, Girolamo},
+  journal={Sensors and Actuators B: Chemical},
+  volume={129},
+  number={2},
+  pages={750--757},
+  year={2008},
+  publisher={Elsevier}
+}
+
+@article{zhang2017beijing,
+  title={Cautionary tales on air-quality improvement in Beijing},
+  author={Zhang, Shuyi and Guo, Bin and Dong, Anlan and He, Jing and Xu, Ziping and Chen, Song Xi},
+  journal={Proceedings. Mathematical, physical, and engineering sciences},
+  volume={473},
+  number={2205},
+  pages={20170457},
+  year={2017}
+}
+
+@article{buczak2023patterns,
+  title={Analyzing the effect of imputation on classification performance under MCAR and MAR missing mechanisms},
+  author={Buczak, Philip and Chen, Jian-Jia and Pauly, Markus},
+  journal={Entropy},
+  volume={25},
+  number={3},
+  pages={521},
+  year={2023},
+  publisher={MDPI}
+}
+
+@article{delfino2026binary,
+  title={Not All Missing Data are Equal: Choosing the Right Imputation Method for Binary Datasets},
+  author={Delfino, Manuel and Rapallo, Fabio},
+  journal={Quality and Reliability Engineering International},
+  year={2026},
+  publisher={Wiley Online Library}
+}
+
+@article{ding2025tarimpute,
+  title={TARImpute: Task-Aware auto-Recommender System for Missing Value Imputation Algorithms with Clustering Case Studies},
+  author={Ding, Xiaoou and Liu, Yanshuo and Chen, Zhounan and Wang, Hongzhi and Wang, Chen and Wang, Jianmin},
+  journal={Proceedings of the VLDB Endowment},
+  volume={18},
+  number={12},
+  pages={5343--5346},
+  year={2025},
+  publisher={VLDB Endowment}
+}
+
+@article{erez2025metalirs,
+  title={Extended metalirs: Meta-learning for imputation and regression selection model with explainability for different missing data mechanisms},
+  author={Baysal Erez, I{\c{s}}{\i}l and Flokstra, Jan and Poel, Mannes and van Keulen, Maurice},
+  journal={International Journal of Data Science and Analytics},
+  volume={20},
+  number={6},
+  pages={5895--5920},
+  year={2025},
+  publisher={Springer}
+}
+
+@article{khan2025shades,
+  title={Still more shades of null: An evaluation suite for responsible missing value imputation},
+  author={Khan, Falaah Arif and Herasymuk, Denys and Protsiv, Nazar and Stoyanovich, Julia},
+  journal={arXiv preprint arXiv:2409.07510},
+  year={2024}
+}
+
+@incollection{lenz2024representation,
+  title={No imputation without representation},
+  author={Lenz, Oliver Urs and Peralta, Daniel and Cornelis, Chris},
+  booktitle={Benelux Conference on Artificial Intelligence},
+  pages={1--21},
+  year={2023},
+  organization={Springer}
+}
+
+@article{marcelino2022regression,
+  title={Missing data analysis in regression},
+  author={Marcelino, Carolina Gil and Leite, Gabriel MC and Celes, P and Pedreira, Carlos Eduardo},
+  journal={Applied Artificial Intelligence},
+  volume={36},
+  number={1},
+  pages={2032925},
+  year={2022},
+  publisher={Taylor \& Francis}
+}
+
+@article{mir2022ibfi,
+  title={Imputation by feature importance (IBFI): A methodology to envelop machine learning method for imputing missing patterns in time series data},
+  author={Mir, Adil Aslam and Kearfott, Kimberlee Jane and Celebi, Fatih Vehbi and Rafique, Muhammad},
+  journal={PloS one},
+  volume={17},
+  number={1},
+  pages={e0262131},
+  year={2022},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{pio2024preprocessing,
+  title={A review on preprocessing algorithm selection with meta-learning: PB Pio et al.},
+  author={Pio, Pedro B and Rivolli, Adriano and Carvalho, Andr{\'e} CPLF de and Garcia, Lu{\'\i}s PF},
+  journal={Knowledge and Information Systems},
+  volume={66},
+  number={1},
+  pages={1--28},
+  year={2024},
+  publisher={Springer}
+}
+
+@article{schouten2018amputation,
+  title={Generating missing values for simulation purposes: a multivariate amputation procedure},
+  author={Schouten, Rianne Margaretha and Lugtig, Peter and Vink, Gerko},
+  journal={Journal of Statistical Computation and Simulation},
+  volume={88},
+  number={15},
+  pages={2909--2930},
+  year={2018},
+  publisher={Taylor \& Francis}
+}
+
+@article{strobl2008conditional,
+  title={Conditional variable importance for random forests},
+  author={Strobl, Carolin and Boulesteix, Anne-Laure and Kneib, Thomas and Augustin, Thomas and Zeileis, Achim},
+  journal={BMC bioinformatics},
+  volume={9},
+  number={1},
+  pages={307},
+  year={2008},
+  publisher={Springer}
+}
+
+@inproceedings{vonkleist2025importance,
+  title = 	 {Feature Importance Metrics in the Presence of Missing Data},
+  author =       {Von Kleist, Henrik and Wendland, Joshua and Shpitser, Ilya and Marr, Carsten},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {61769--61789},
+  year = 	 {2025},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR},
+}
+
+
+@article{cawley2010selection,
+  title={On over-fitting in model selection and subsequent selection bias in performance evaluation},
+  author={Cawley, Gavin C and Talbot, Nicola LC},
+  journal={The Journal of Machine Learning Research},
+  volume={11},
+  pages={2079--2107},
+  year={2010},
+  publisher={JMLR. org}
+}
+
+@inproceedings{lemorvan2020neumiss,
+  title={NeuMiss networks: differentiable programming for supervised learning with missing values.},
+  author={Le Morvan, Marine and Josse, Julie and Moreau, Thomas and Scornet, Erwan and Varoquaux, Ga{\"e}l},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={5980--5990},
+  year={2020}
+}
+
+@inproceedings{toye2025timeseries,
+  title={Benchmarking missing data imputation methods for time series using real-world test cases},
+  author={Toye, Adedolapo Aishat and Celik, Asuman and Kleinberg, Samantha},
+  journal={Proceedings of machine learning research},
+  volume={287},
+  pages={480},
+  year={2025}
+}
+
+
+@article{zhou2024review,
+  title={Review for handling missing data with special missing mechanism},
+  author={Zhou, Youran and Aryal, Sunil and Bouadjenek, Mohamed Reda},
+  journal={arXiv preprint arXiv:2404.04905},
+  year={2024}
+}
+
+@article{alwateer2024missing,
+  title={Missing data imputation: A comprehensive review},
+  author={Alwateer, Majed and Atlam, El-Sayed and Abd El-Raouf, Mahmoud Mohammed and Ghoneim, Osama A and Gad, Ibrahim},
+  journal={Journal of Computer and Communications},
+  volume={12},
+  number={11},
+  pages={53--75},
+  year={2024},
+  publisher={Scientific Research Publishing}
+}
+
+@misc{sklearnhgbdocs,
+  title={{HistGradientBoostingRegressor}: missing value support},
+  author={{scikit-learn developers}},
+  howpublished={scikit-learn 1.7.2 user guide, \S1.11 Ensembles},
+  year={2025},
+  note={\url{https://scikit-learn.org/1.7/modules/ensemble.html}, accessed 11 October 2026}
+}
+
+@misc{rao2020airquality,
+  author = {Rao, Rohan},
+  title = {Air quality data in {India} (2015--2020)},
+  year = {2020},
+  howpublished = {Dataset, Kaggle, {CC0} public domain},
+  note = {\url{https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india}, accessed 11 October 2026}
+}
+
+@article{paterakis2024autoimpute,
+  title = {Do we really need imputation in {AutoML} predictive modeling?},
+  author = {Paterakis, Georgios and Fafalios, Stefanos and Charonyktakis, Paulos
+            and Christophides, Vassilis and Tsamardinos, Ioannis},
+  journal = {ACM Transactions on Knowledge Discovery from Data},
+  volume = {18},
+  number = {6},
+  pages = {1--64},
+  year = {2024},
+  doi = {10.1145/3643643},
+  publisher = {ACM}
+}
+
+@inproceedings{woznica2020benchmark,
+  title={Does imputation matter? Benchmark for real-life classification problems.},
+  author={Wo{\'z}nica, Katarzyna and Biecek, Przemyslaw},
+  booktitle={ICML Workshop on the Art of Learning With Missing Values (Artemiss)},
+  year={2020}
+}
